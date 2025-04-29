@@ -1,8 +1,11 @@
 {
   "name": "mcp-notify",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
   "main": "build/index.js",
+  "bin": {
+    "mcp-notify": "./build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",

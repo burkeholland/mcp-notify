@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "node-notifier": {
-      "type": "stdio",
-      "command": "node",
-      "args": ["X:/mcp-notify/build/index.js"]
-    }
-  }
-}
