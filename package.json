@@ -1,13 +1,15 @@
 {
   "name": "mcp-notify",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "type": "module",
-  "main": "build/index.js",
   "bin": {
-    "mcp-notify": "./build/index.js"
+    "mcp-notify": "build/index.js"
   },
+  "files": [
+    "build"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
     "watch": "tsc --watch",
     "start": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,12 +18,14 @@
   "author": "",
   "license": "ISC",
   "description": "MCP server for node-notifier",
-  "devDependencies": {
+  "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.2",
+    "node-notifier": "^10.0.1",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
     "@types/node": "^22.15.3",
     "@types/node-notifier": "^8.0.5",
-    "node-notifier": "^10.0.1",
-    "typescript": "^5.8.3",
-    "zod": "^3.24.3"
+    "typescript": "^5.8.3"
   }
 }
