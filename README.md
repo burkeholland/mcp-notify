@@ -4,6 +4,10 @@
 
 A Model Context Protocol (MCP) server that provides system notification capabilities using node-notifier.
 
+<a href="https://glama.ai/mcp/servers/@burkeholland/mcp-notify">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@burkeholland/mcp-notify/badge" alt="Node-Notifier Server MCP server" />
+</a>
+
 ## Tools
 
 ### show-notification
