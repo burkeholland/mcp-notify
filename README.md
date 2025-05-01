@@ -1,6 +1,6 @@
 # MCP Notify Server
 
-[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=notify&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-notify%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=notify&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-notify%22%5D%7D&quality=insiders)
+[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=notify&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-notify%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=notify&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-notify%22%5D%7D&quality=insiders) [![smithery badge](https://smithery.ai/badge/@burkeholland/mcp-notify)](https://smithery.ai/server/@burkeholland/mcp-notify)
 
 A Model Context Protocol (MCP) server that provides system notification capabilities using node-notifier.
 
@@ -99,3 +99,14 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
   }
 }
 ```
+
+### Installing via Smithery
+
+To install Notify Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@burkeholland/mcp-notify):
+
+```bash
+npx -y @smithery/cli install @burkeholland/mcp-notify --client claude
+```
+
+### Installing Manually
+Add the MCP Notify server entry to your Claude settings to use it automatically.
